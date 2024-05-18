@@ -5,7 +5,7 @@ class While6{
 		
 		int i=1;
 		
-		while(i<5){
+		while(i<6){
 			if(i%2==1){
 				if(i==5){
 					System.out.print(i);
