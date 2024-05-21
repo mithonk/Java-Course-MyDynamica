@@ -1,3 +1,10 @@
+// 12345
+// 12345
+// 12345
+// 12345
+// 12345
+
+
 class Ex1{
 	public static void main(String args[]){
 		
