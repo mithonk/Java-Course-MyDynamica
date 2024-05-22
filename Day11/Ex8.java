@@ -1,23 +1,25 @@
 // 1
 // 23
 // 456
-// 6789
+// 78910
 
 
 class Ex8{
 	public static void main(String args[]){
 		
-		int x = 1;
+		int a = 1;
+		int z1 =1;
 		
-		while(x<=10){
-			int y = 1;
-			while(y<=x){
-				System.out.print(x);
-				y++;
-				x++;
+		while(a<=4){
+			int b = 1;
+			while(b<=a){
+				System.out.print(z1);
+				b++;
+				z1++;
 			}
 			System.out.println();
+			a++;
 		}
-		
+
 	}
 }

@@ -11,24 +11,19 @@
 class Ex5{
 	public static void main(String args[]){
 		
-		int x = 1;
+		int a = 1;
 		
-		while(x<=5){
-			int y=1;
-			while(y<=5){
-				
-				
-					System.out.print(x);
-					
-					y++;
-				}
-				
-			
-			
-			
-			x+=2;
+		while(a<=5){
+			int b = 1;
+			while(b<=5){
+				System.out.print(a);	
+				b++;
+			}
 			System.out.println();
+			if(a<5){
 			System.out.println("*****");
+			}
+			a+=2;
 		}
 		
 	}
