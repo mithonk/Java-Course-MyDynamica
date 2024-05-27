@@ -3,10 +3,10 @@ class Pen{
 	String color;
 	double height;
 	String brand;
-	String madein;
+	String madeIn;
 	double price;
 	
 	void write(){
-		System.out.println("This is write method");
+		//System.out.println("This is write method");
 	}
 }
