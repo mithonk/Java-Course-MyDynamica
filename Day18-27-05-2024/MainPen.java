@@ -5,13 +5,15 @@ class MainPen{
 		
 		Pen p; //Object declaration
 		p=new Pen(); // Object constraction / memory allocation
-		p.color = "Red"; //. Member access point
+		p.color = "Red"; //. Member access operator
 		
 		
 		p.height = 10.5;
 		p.madeIn = "Sri lanka";
 		p.price=100;
 		p.brand="Ten";
+		
+		p.write();
 		
 		System.out.println("Color : "+p.color);
 		System.out.println("Height : "+p.height);

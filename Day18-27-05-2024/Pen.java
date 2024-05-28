@@ -7,6 +7,6 @@ class Pen{
 	double price;
 	
 	void write(){
-		//System.out.println("This is write method");
+		System.out.println("This is write method");
 	}
 }
