@@ -18,7 +18,7 @@ class Employee{
 		}
 	}
 	
-	void getEmployee(){
+	void display(){
 		System.out.println("Employee ID : "+id);
 		System.out.println("Employee Name : "+name);
 		System.out.println("Employee Basic Salary : "+basicSalary);
