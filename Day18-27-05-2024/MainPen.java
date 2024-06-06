@@ -1,7 +1,7 @@
 class MainPen{
 	public static void main(String args[]){
 		
-		int x; //vatiable declaration
+		//int x; //variable declaration
 		
 		Pen p; //Object declaration
 		p=new Pen(); // Object constraction / memory allocation
