@@ -32,7 +32,7 @@ class Student {
 	}
 	
 	int calTotal(){
-		int total = marks1+marks2+marks3;
+		int total = this.marks1+this.marks2+this.marks3;
 		return total;
 	}
 	
