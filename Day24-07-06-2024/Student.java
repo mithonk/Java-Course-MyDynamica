@@ -44,7 +44,7 @@ class Student{
 		return result;
 	}
 	
-	void display(){
+	void display (){
 		System.out.println("ID : "+this.id);
 		System.out.println("Name : "+this.name);
 		System.out.println("Marks 1 : "+this.marks1);
@@ -56,7 +56,7 @@ class Student{
 		char result = this.getResult(avg);
 		
 		System.out.println("Total : "+tot);
-		System.out.println("average : "+avg);
+		System.out.println("Average : "+avg);
 		System.out.println("Result : "+result);
 	}
 }
