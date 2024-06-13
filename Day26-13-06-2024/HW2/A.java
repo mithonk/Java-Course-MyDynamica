@@ -1,12 +1,11 @@
-class Num1 {
+class A{
 	int x;
 	
-	Num1(){
-		this.x = 5;
+	A(int x){
+		this.x = x;
 	}
 	
 	void getX(){
 		System.out.println("X : "+this.x);
 	}
-	
 }
