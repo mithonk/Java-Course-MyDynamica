@@ -13,7 +13,7 @@ class Student{
 	}
 	
 	void setStudent(String name){
-		this.id = 1002;
+		this.id = 1003;
 		this.name = name;
 	}
 	
